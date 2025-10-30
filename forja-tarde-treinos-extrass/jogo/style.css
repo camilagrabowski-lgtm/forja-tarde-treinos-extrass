@@ -1,0 +1,62 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #00fff0;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#letraAtual {
+  font-size: 5em;
+  color: #ff007f;
+  margin: 20px;
+}
+
+input {
+  font-size: 1.5em;
+  text-align: center;
+  width: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin: 10px;
+}
+
+button {
+  background-color: #00fff0;
+  border: none;
+  color: #000;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #00cfc0;
+}
+
+#mensagem {
+  margin-top: 20px;
+  font-size: 1.3em;
+  min-height: 30px;
+}
+
+#pontuacao {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #00fff0;
+}

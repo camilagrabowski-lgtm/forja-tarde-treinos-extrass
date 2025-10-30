@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-car{
+    width: 500px; 
+}
+p{
+   width: 100%;
+   text-align: center;
+}

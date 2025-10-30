@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo de Letras</title>
+  <!-- Link para o arquivo de estilo -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎯 Jogo das Letras</h1>
+  <p>Tente adivinhar a letra sorteada!</p>
+
+  <div id="letraAtual">?</div>
+
+  <input type="text" id="entrada" maxlength="1" placeholder="A-Z" autofocus>
+  <br>
+  <button id="btnVerificar">Verificar</button>
+  <button id="btnNovaLetra">Nova Letra</button>
+
+  <div id="mensagem"></div>
+  <div id="pontuacao">Pontuação: 0</div>
+
+  <!-- Importa o script -->
+  <script src="script.js"></script>
+</body>
+</html>
